@@ -1,0 +1,41 @@
+.Register {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Register h1{
+    color: #939b62;
+    font-style: initial;
+    font-family: cursive;
+}
+.RegisterForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.RegisterForm input,button{
+    margin: 10px;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.RegisterForm button{
+    background-color:  #ffd56b;
+}
+
+.RegisterForm button:hover{
+    cursor: progress;
+    background-color: #939b62;
+    color: white;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
